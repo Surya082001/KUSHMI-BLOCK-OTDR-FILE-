@@ -1,0 +1,85 @@
+[Header]
+Txt File Release 	1.7
+Date             	29/11/2025
+Time             	17:17:35
+File Name        	24 f 01 no khairi gp to tp 
+Software Version 	18.60
+Base Name        	SmartOTDR
+Base SN          	28162
+Module Name      	E100AS
+Module SN        	28162
+Status           	NO TEST
+Technician Id    	
+Contractor Id    	
+Job Id           	
+Comment          	
+GPS Position     	Not Available
+
+[Fiber]
+Fiber Number          	2776
+Location A            	LOC A
+Location B            	LOC B
+Direction             	LOC A -> LOC B
+Cable Id Location A   	
+Fiber Id Location A   	Fiber
+
+
+
+
+
+[Launch Cable]
+Include Link Start Connector	No
+Include Link End Connector	No
+Launch  Cable End    	    0.000 Km
+Receive Cable Start  	    0.000 Km
+
+[Setup]
+Laser        	1550nm
+Pulse        	30ns
+Range        	20km
+Resolution   	1.2m
+Avr_Time     	10.0s
+Scatter_Coef 	-81.0 dB
+IOR          	 1.46800
+Bend_Thresh  	Auto
+
+[Summary]
+1550nm
+	Fiber Length(Km)     	    8.867
+	Link Loss (dB)       	10.730
+	Link ORL (dB)        	45.29
+	Nb Of Events         	7
+	Max Splice (dB)      	2.756
+	Max Connector (dB)   	---
+	Max Reflectance (dB) 	---
+
+[Results]
+1550nm
+Event	SLM Id	      Distance	    Loss	  Reflec	   Slope	        Length	   TLoss	    Type Event	  Status
+     	  	            Km	      dB	      dB	   dB/km	            Km	      dB	              	        
+    1	1	         0.052	   0.623	        	        	         0.052	   0.010	        Splice	     N/A
+    2	2	         0.066	   0.547	        	        	         0.014	   0.636	        Splice	     N/A
+    3	3	         0.083	   0.309	        	        	         0.017	   1.188	        Splice	     N/A
+    4	4	         0.094	   0.294	        	        	         0.011	   1.498	        Splice	     N/A
+    5	5	         0.105	   0.307	        	        	         0.010	   1.793	        Splice	     N/A
+    6	6	         0.120	   2.756	        	        	         0.015	   2.103	        Splice	     N/A
+    7	7	         8.867	        	  -44.11	   0.671	         8.747	  10.730	     Fiber End	     N/A
+
+
+
+
+<Metadata>
+    <Verdict>None</Verdict>
+    <Workorder></Workorder>
+    <TestLocation>LOC A</TestLocation>
+    <TestLocationB>LOC B</TestLocationB>
+    <TestDirection>A-B</TestDirection>
+    <Comments></Comments>
+    <AcqDate>29/11/2025 17:17:35</AcqDate>
+    <FiberNumber>2776</FiberNumber>
+    <Wavelengths>1550nm</Wavelengths>
+    <LinkOrl>45.29</LinkOrl>
+    <TotalLoss>10.730</TotalLoss>
+    <TotalLength>8.867Km</TotalLength>
+    <FiberId>Fiber</FiberId>
+</Metadata>
